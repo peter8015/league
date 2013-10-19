@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav ul li a{ font:18px/64px "Microsoft YaHei"; height:64px; margin:0px; text-shadow:1px 1px 0px #ffe396; color:#000000; display:inline-block; padding-top:16px; width:156px; text-align:center;}
+.nav .nav_menu{ float:right; background:url(../images/igo_menu_line.png) left no-repeat;}
+.nav .nav_menu li{width:156px; background:url(../images/igo_menu_line.png) right no-repeat; text-align:center; font:18px/80px "Microsoft YaHei"; height:80px; float:left;}
+.nav a#clock{ background:url(../images/clock.png) no-repeat left;}
+.nav a#bird{ background:url(../images/niao2.png) no-repeat center center;}
+.nav a#bug{ background:url(../images/bug.png) no-repeat left; }
+.nav a#murmurs{ background:url(../images/murmurs.png) no-repeat left;}
+.nav a#home{ background:url(../images/home.png) no-repeat center center; width:52px; line-height:50px; height:50px; margin:15px 0 0 30px; float:left; display:inline-block; }
+.nav a#home:hover{ background:url(../images/home2.png) no-repeat center center; width:52px; line-height:50px; height:50px;}
+.nav a#home.on{ background:url(../images/home_over2.png) no-repeat center center; width:52px; line-height:50px; height:50px;}
+.nav a.on/*,.nav a:hover*/{color:#ffffff; text-shadow:1px 1px 0px #000000; background-color:#333333;}
+.nav a:hover{ text-shadow:1px 1px 0px #ffffff; font-weight:bold; text-decoration:none; }
+.nav a#clock.on{ background:url(../images/clock2.png) no-repeat left #333333;}
+.nav a#bird.on{ background:url(../images/niao.png) no-repeat center center #333333;}
+.nav a#bug.on{ background:url(../images/bug2.png) no-repeat left #333333; }
+.nav a#murmurs.on{ background:url(../images/murmurs2.png) no-repeat left #333333;}
+a#a_btn{border:1px solid #ff9900; height:24px; line-height:24px; font-size:14px; font-weight:bold; display:block; padding:5px 20px; background:url(../images/member/bg_glass_gradient.png) center center #eee;}
+a#a_btn.on{border:1px solid #ff9900; color:#fff; height:24px; line-height:24px; font-size:14px; font-weight:bold; display:block; padding:5px 20px; background:url(../images/member/bg_glass_gradient.png) center center #333;}
+
+a#b_btn{border:1px solid #ff9900; height:24px; line-height:24px; font-size:14px; font-weight:bold; display:block; padding:5px 20px; background:url(../images/member/bg_glass_gradient.png) center center #eee;}
+a#b_btn.on{border:1px solid #ff9900; color:#fff; height:24px; line-height:24px; font-size:14px; font-weight:bold; display:block; padding:5px 20px; background:url(../images/member/bg_glass_gradient.png) center center #333;}
+
+
+.nav ul{ float:left;}/*0910-hakey-add-memu-logo-update*****bootstrap-use*/
+
+.left_subnav{ width:190px; float:left;}
+.left_subnav ul{ width:190px; margin:0 auto; }
+.left_subnav li{ width:190px;/* border-bottom:1px solid #f8f8f8;*/ background:url(../images/li.png) no-repeat; height:40px; line-height:40px;} 
+.left_subnav li a{ text-align:center; font:16px/40px "Microsoft YaHei"; width:160px; padding-right:30px; display:block;}
+.left_subnav li a.on{ font-weight:bold; background:url(../images/li.png) 0 -40px no-repeat; color:#000000;}
+.left_subnav li a:hover{ font-weight:bold; color:#000000;}
+.right_igo{ width:1000px; float:right; min-height:300px;}

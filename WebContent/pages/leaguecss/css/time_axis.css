@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_right2{  width:982px; padding:0; float:right; min-height:560px;}
+.border1{ border:1px solid #e4e4e4;}
+.pro_agile{ background:#dfffbd; border-bottom:1px solid #cdeeab;}
+.pro_agile h2{ height:40px; font:normal 16px/40px "Microsoft Yahei"; margin-left:10px;}
+
+.search_time{ width:920px; margin:10px auto;}
+.search_time p{ height:40px; line-height:40px; text-align:center; margin:5px auto;}
+.search_time p label{ width:120px; text-align:right; display:inline-block; }
+.search_time p input{ height:18px; line-height:18px; padding:2px;}
+.search_time .search_btn{ background:#5fb803; border:1px solid #488d00; border-radius:2px; display:inline-block; height:30px; line-height:30px; width:80px; cursor:pointer;}
+
+.time_box{ width:920px; margin:20px auto; border-bottom:1px dashed #5fb803; height:7px;}
+.time_axis{ width:860px; margin:0 auto; border-bottom:1px solid #5fb803; position:relative; height:7px;}
+.time_dot{ position:absolute; top:3px; background:url(../images/time-dot.png) no-repeat; height:8px; width:8px;}
+.time_dot .date{ position:absolute; top:-36px;}
+.time_clock{ float:right;} 
+.time_event{ line-height:24px; color:#ffffff; position:absolute; top:24px; padding:2px;}
+.time_event .jt_green{ background:url(../images/time_txt_jt.png) 0 0px no-repeat #5fb803; height:11px; width:13px; position:absolute; top:-11px; left:0; }
+.time_event .jt_blue{ background:url(../images/time_txt_jt.png) 0 0px no-repeat #0099ff; height:11px; width:13px; position:absolute; top:-11px; left:0; }
+.bg_green{ background:#5fb803;}
+.bg_blue{ background:#0099ff;}

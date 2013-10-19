@@ -1,0 +1,33 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>1.2</jsp-version>
+   <short-name>base</short-name>
+   <uri>http://www.base.com</uri>
+   <tag>
+      <name>dict</name>
+      <tag-class>com.base.platform.framework.tag.DictionaryTag</tag-class>
+      <attribute>
+         <name>dict</name>
+         <required>true</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+         <name>code</name>
+         <required>true</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+	</tag>
+	<tag>
+      <name>dictMap</name>
+      <tag-class>com.base.platform.framework.tag.DictMapTag</tag-class>
+      <attribute>
+         <name>dict</name>
+         <required>true</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+	</tag>
+
+	
+
+</taglib>
+

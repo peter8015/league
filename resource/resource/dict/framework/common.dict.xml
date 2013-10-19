@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+
+   <gender>
+     <item code="1">男</item>
+     <item code="2">女</item>
+     <item code="0">不限</item>
+   </gender>
+   
+   <language>
+     <item code="zh">中文</item>
+     <item code="en">英文</item>
+   </language>
+   
+   <boolean_code>
+   		<item code="true">是</item>
+     	<item code="false">否</item>
+     	<item code="0">不限</item>
+   </boolean_code>
+   
+   <standardItemType>
+   		<item code="0">--请选择--</item>
+   		<item code="1">三违</item>
+   		<item code="2">危险源</item>
+   		<item code="3">工程质量</item>
+   </standardItemType>
+   		
+   <accidentDealState>
+   		<item code="-1">--请选择--</item>
+   		<item code="0">待处理</item>
+   		<item code="1">已上报</item>
+   		<item code="2">处理中</item>
+   		<item code="5">已处理</item>
+   </accidentDealState>
+   
+   <accidentGrade>
+   		<item code="0">--请选择--</item>
+   		<item code="1">A级</item>
+   		<item code="2">B级</item>
+   		<item code="3">C级</item>
+   </accidentGrade>
+   <accidentReportState>
+   		<item code="3">已上报</item>
+   </accidentReportState>
+   <receiptState>
+   		<item code="0">待处理</item>
+   		<item code="1">已处理</item>
+   		<item code="2">处理中</item>
+   		<item code="3">复检中</item>
+   		<item code="4">再次整改</item>
+   </receiptState>
+   
+   <sendAssign>
+   		<item code="0">未执行</item>
+   		<item code="1">执行中</item>
+   		<item code="2">完成</item>
+   </sendAssign>
+   <wuziType>
+   <item code="0">普通物资</item>
+   <item code="1">关注物资</item>
+   <item code="2">特种物资</item>
+   </wuziType>
+   
+   <projectType>
+    <item code="0">内部工程</item>
+   <item code="1">外部工程</item>
+   </projectType>
+   
+   <workItemType>
+   	<item code="1">主要工序</item>
+   	<item code="2">辅助工序</item>
+   </workItemType>
+   
+   <costItemSource>
+    <item code="0">录入</item>
+   <item code="1">分摊</item>  
+   </costItemSource>
+   
+      
+   <feeShareState>
+    <item code="0">停用</item>
+   <item code="1">启用</item>
+   </feeShareState>
+   
+   <companyType>
+   		<item code="0">--请选择--</item>
+   		<item code="1">有限责任公司</item>
+		<item code="2">股份有限责任公司</item>
+		<item code="3">私营独资企业</item>
+		<item code="4">私营合伙企业</item>
+		<item code="5">个体工商户</item>
+		<item code="6">非公司企业法人</item>
+   </companyType>
+   <companyNature>
+   		<item code="0">--请选择--</item>
+   		<item code="1">全民所有制</item>
+		<item code="2">集体所有制</item>
+		<item code="3">外商投资</item>
+		<item code="4">私营</item>
+   </companyNature>
+   <companyCreditLevel>
+   		<item code="0">--请选择--</item>
+   		<item code="1">A级</item>
+   		<item code="2">B级</item>
+   		<item code="3">C级</item>
+   </companyCreditLevel>
+   
+   <setofbookStatus>
+   		<item code="1">已结转</item>
+		<item code="2">使用中</item>
+		<item code="3">未结转</item>
+   </setofbookStatus>
+   
+   <currency_type>
+		<item code="USD">美元</item>
+		<item code="CNY">人民币</item>
+		<item code="EUR">欧元</item>
+	</currency_type>
+   
+   <marriage_status>
+   		<item code="false">未婚</item>
+  		<item code="true">已婚</item>  	
+  		<item code="0">不限</item>	
+   </marriage_status>
+   
+   <month>
+   		<item code="1">一月</item>
+   		<item code="2">二月</item>
+   		<item code="3">三月</item>
+   		<item code="4">四月</item>
+   		<item code="5">五月</item>
+   		<item code="6">六月</item>
+   		<item code="7">七月</item>
+   		<item code="8">八月</item>
+   		<item code="9">九月</item>
+   		<item code="10">十月</item>
+   		<item code="11">十一月</item>
+   		<item code="12">十二月</item>
+   		<item code="any-time">随时</item>
+   </month>
+   
+   <degree_level>
+     <item code="junior_high_school">初中</item>
+     <item code="high_school">高中</item>
+     <item code="junior_college">大专</item>
+     <item code="bachelor">大学</item>
+     <item code="master">硕士</item>
+   </degree_level>
+   
+   <degree_status>
+     <item code="in_reading">在读</item>
+     <item code="graduate">已毕业</item>
+   </degree_status>
+   
+   <full-half-time>
+   		<item code="true">全日制</item>
+     	<item code="false">半日制</item>
+   </full-half-time>
+   
+   
+	<judge-status>
+		<item code="true">通过</item>
+		<item code="false">不通过</item>
+	</judge-status>
+   
+   <certificate>
+   		<item code="indentityCard">身份证</item>
+      	<item code="passport">护照</item>
+      	<item code="huKouBen">户口本</item>   		
+   		<item code="graduationCertificate">毕业证</item>  
+   		<item code="workExperience">工作证明</item>  
+   		<item code="cv">简历</item>  
+   		<item code="studyEssay">论文</item>
+   		<item code="photo">照片</item> 		   	   		   		
+   </certificate>
+   
+    
+   
+   <bank>
+	   	<item code="CBC">建设银行</item>
+	   	<item code="ICBC">工商银行</item> 
+	   	<item code="QDII">农业银行</item>
+	   	<item code="CMBC">招商银行</item>
+	   	<item code="PSBC">邮政储蓄银行</item> 
+	   	<item code="BC">中国银行</item> 
+	   	<item code="CMBC">民生银行</item> 
+	   	<item code="CIB">兴业银行</item> 
+	   	<item code="CDB">国家开发银行</item> 
+	   	<item code="BCM">交通银行</item> 
+	   	<item code="CEB">光大银行</item> 
+	   	<item code="CITIC">中信银行</item> 
+	   	<item code="CIB">兴业银行</item> 
+	   	<item code="SPDB">浦发银行</item> 
+	   	<item code="HSBC">汇丰银行</item> 
+	   	<item code="BJB">北京银行</item> 
+	   	<item code="HB">华夏银行</item>
+	   	<item code="OTHER">其他</item>      		   	
+   </bank>
+   
+   <nationality>
+   		<item code="PRC">中国</item>
+	   	<item code="USA">美国</item>
+   		<item code="UK">英国</item> 		   	
+   </nationality>
+   
+   <courseType>
+   		<item code="book">书籍</item>
+     	<item code="article">文章</item>
+   </courseType>
+   
+   <decideSort>
+   		<item code="eem">设备</item>
+
+   </decideSort>
+   <decideResult>
+   		<item code="right">正确</item>
+   		<item code="error">错误</item>
+   </decideResult>
+   
+   <sendWorkType>
+   		<item code="2">已回执</item>
+   		<item code="5">派工完成</item>
+   </sendWorkType>
+   
+   <checkupType>
+   		<item code="0">--请选择--</item>
+   		<item code="1">岗检</item>
+   		<item code="2">日检</item>
+   		<item code="3">专业检</item>
+   </checkupType>
+   
+   <feeFrequence>
+   		<item code="1">年</item>
+   		<item code="2">月</item>
+   		<item code="3">日</item>
+   </feeFrequence>
+   
+   
+   <equipType>
+   		<item code="0">--请选择--</item>
+   		<item code="1">主体</item>
+   		<item code="2">附属</item>
+   </equipType>
+   
+   <proType>
+   		<item code="0">--请选择--</item>
+   		<item code="1">正常</item>
+   		<item code="2">异常</item>
+   		<item code="3">故障</item>
+   		<item code="4">异常和故障</item>
+   		<item code="5">维修中</item>
+   		<item code="6">闲置</item>
+   </proType>
+   
+   <defaStatus>
+   	<item code="0">--请选择--</item>
+   	<item code="1">待修理</item>
+   	<item code="2">修理中</item>
+   	<item code="3">已修理</item>
+   	<item code="4">计划中</item>
+   </defaStatus>
+   
+   	<authTypeMap>
+		<item code="0">非权限节点</item>
+		<item code="1">权限节点</item>
+		<!--  
+			<item code="2">非菜单树节点</item>
+		-->
+	</authTypeMap>
+	
+	<stationTypeMap>
+		<item code="other">其它</item>
+	</stationTypeMap>
+	
+	<fixPlace>
+		<item code="0">国内</item>
+		<item code="1">国外</item>  
+		<item code="2">军队</item>  
+	</fixPlace>
+</dictionary>

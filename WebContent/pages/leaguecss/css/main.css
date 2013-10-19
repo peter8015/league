@@ -1,0 +1,441 @@
+@CHARSET "UTF-8";
+*{
+   font-size:12px;
+   color:#333333;     
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   font-family: verdana, arial, helvetica, sans-serif;   
+   scrollbar-face-color:#DBEBFE;
+   scrollbar-3dlight-color:#DBEBFE;
+   scrollbar-highlight-color:#ffffff;
+   scrollbar-track-color:#D6EDFA;
+   scrollbar-shadow-color:#B8D6FA;
+   scrollbar-arrow-color:#458CE4;   
+   
+}
+body
+{
+	 background-color:#FFF4D3;
+}
+textarea,input,object {
+	font-family: Tahoma, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #eeeeee;
+	color: #111111
+}
+table
+{
+   margin: 0px;
+   padding: 0px;
+   border-collapse: collapse;
+}
+.button {
+	border: 1px #C2DFFF solid;     
+	font-size: 12px;  
+	cursor:pointer;  	
+	background:url(../images/btnbg_01.jpg) repeat-x; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; text-align:center;
+	height:24px; line-height:24px; padding:0 8px; border:1px solid #aaaaaa;
+	}
+.spanTitle
+{
+   color:#FFAE00;
+   font-weight:bold;
+   font-size:12px;
+   padding-top:3px; margin:0;
+}
+.header
+{
+   background:url(../../../../league/js/common/flexigrid/images/common/loginimages/bannerbg.jpg) repeat-x left bottom;
+   position:relative; height:74px;
+}
+.logo
+{
+   background:url(../../../../league/js/common/flexigrid/images/common/loginimages/logo.jpg) no-repeat left bottom; 
+   position:absolute;
+   left:0; 
+   top:0px; 
+   width:100%;
+   height:100%;
+   z-index:2;
+}
+.banner
+{ 
+   background:url(../../../../league/js/common/flexigrid/images/common/loginimages/banner.jpg) no-repeat right bottom;
+   position:absolute; 
+   top:0;
+   right:0;
+   width:100%; 
+   height:100%; 
+   z-index:1;
+}
+.botdiv
+{ 
+   border-top:1px solid #d9d9d9;
+   padding:5px 0;
+}
+.botdiv td
+{
+   font-size:12px;
+   color:#333;
+}
+.myline     
+  {   
+  BORDER-RIGHT:   #000000   0px   solid;   BORDER-TOP:   #000000   0px   solid;   BORDER-LEFT:   #000000   0px   solid;   BORDER-BOTTOM:   #000000   1px   solid     
+  } 
+.textBorder0  {
+  BORDER-TOP:0px;
+BORDER-BOTTOM:0PX;
+BORDER-LEFT:0px;
+BORDER-RIGHT:0px
+	}
+}  
+.tableWidthB100
+{
+	width:100%;	
+}
+.ticon
+{
+  background:url(../images/left/tb.gif); 
+  background-repeat:no-repeat;
+  background-position:10px center;
+}
+.mustSpan{ color:red;	font-size:12px;}    
+.fixed   {   
+  position:relative;   
+  background:#333333;
+  }   
+  .scroll_layer   {   
+  width:98%;    
+  margin:-1px;
+  overflow-y:scroll; 
+  border-top:#333333;
+  }   
+  .conmDiv{
+    margin:0px;
+  }
+.menu
+{
+  height:18px;
+  padding-right:10px;
+}
+.menu a
+{ 
+  display:block;
+  float:right;
+  width:40px; 
+  height:18px; line-height:18px;
+  color:#FFAE00; 
+  text-decoration:none;
+  text-align:center;
+  margin:0 3px; background:#000000; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;
+}
+.menu a:hover
+{
+  display:block; 
+  float:right;
+  width:40px;
+  height:18px; 
+  color:#333;   
+  background:#FFAE00; 
+  text-align:center;line-height:18px;  
+  margin:0 3px;
+}
+.atree
+{
+   margin:0px;
+}
+.atree a:link 
+{
+	text-decoration: none;
+	color: #31559c;
+}
+
+.atree a:visited {
+	text-decoration:  none;
+	color: #31559c;
+}
+.atree a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
+.ato
+{
+   margin:0px;
+}
+.ato a:link 
+{
+	color: #31559c;
+}
+
+.ato a:visited {
+	color: #31559c;
+}
+
+.ato a:hover {
+	color: #cccccc;
+}
+.ListTableF {
+     border:1px solid #EBEBEB;
+     border-collapse:collapse; 
+     BORDER-BOTTOM: medium none; 
+     BORDER-LEFT:0px solid #EBEBEB; 
+     BORDER-RIGHT: medium none; 
+     BORDER-TOP: medium none; 
+     margin:-1px;
+}
+
+.fixedDiv{ 
+     height:expression(window.screen.availHeight-window.screenTop-74);            
+     overflow-y:scroll;    
+	 overflow-x:hidden;
+	 border-left-color:#cccccc;
+	 border-left-width:1px;
+	 border-left-style:solid;                            
+}
+.fixedDiv1{     
+     height:expression(window.screen.availHeight-window.screenTop-74-80);                     
+     overflow-y:scroll;    
+	 overflow-x:hidden;                            
+}  
+.fixedDivZxf{ 
+     height:expression(window.screen.availHeight-window.screenTop-74-18-48); 
+     overflow-y:scroll;
+	 overflow-x:hidden;  
+}
+
+.fixedDivs{ 
+     height:expression(window.screen.availHeight-window.screenTop-24); 
+     overflow-y:scroll;
+	 overflow-x:hidden;
+}
+
+.indeximag{
+	 height:expression(window.screen.availHeight-window.screenTop-72); 
+	 width:expression(window.screen.availWidth);
+	}
+
+.hcfixedDiv{ 
+     height:expression(window.screen.availHeight-window.screenTop-74-50); 
+     overflow-y:scroll;
+	 overflow-x:hidden;
+}
+.ljpfixedDiv{ 
+     height:expression(window.screen.availHeight-window.screenTop-70); 
+     overflow-y:scroll;
+	 overflow-x:hidden;
+}
+.ljpfixedDiv2{ 
+     height:expression(window.screen.availHeight-window.screenTop-85); 
+     overflow-y:scroll;
+	 overflow-x:hidden;
+}
+.fixedHeaderTr { 
+ position:relative; 
+ top:expression(this.offsetParent.scrollTop); 
+ z-index:20;
+}
+.fixedHeaderTd { 
+ position:relative; 
+ left:expression(this.offsetParent.scrollLeft); 
+ z-index:10;
+}
+.fullSltColWidth
+{
+	width:60px;
+}
+.ListTableF th {
+ background:url(../../../../league/js/common/flexigrid/images/common/index/gridth.gif);     
+ height:22px;    
+ font-size: 12px;  
+ BORDER-BOTTOM: #cccccc 1pt solid; 
+ BORDER-LEFT: #cccccc 1pt solid; 
+ BORDER-RIGHT:#cccccc 1pt solid; 
+ BORDER-TOP: #cccccc 1pt solid;     
+ font-weight: bold; 
+ valign:middle;
+ text-valign:center;
+}
+
+.ListTableF td {
+ border: inset 1px #cccccc;
+ BORDER-BOTTOM: #cccccc 1pt solid; 
+ BORDER-LEFT: #cccccc 1pt solid; 
+ BORDER-RIGHT: #cccccc 1pt solid; 
+ BORDER-TOP: #cccccc 1pt solid;
+ font-size: 12px;
+ border-collapse:collapse; 
+ height:18px;
+}     
+.dpage
+{
+  width:100%;
+  background:url(images/lcen.gif);
+  margin:0px;
+}
+.fset
+{
+   width:96%;     
+   
+}
+.ifrmt
+{
+ height:expression(window.screen.availHeight-window.screenTop-74-18); 
+ width:200px;
+}
+.ifrm
+{
+	 height:expression(window.screen.availHeight-window.screenTop-78);  
+	 width:100%;   
+}
+.ifrmplzb
+{
+	 height:expression(window.screen.availHeight-window.screenTop-68);  
+	 width:expression(window.screen.availWidth-550-4);
+	 overflow-y:hidden;
+}
+
+.ifrmp
+{
+	 height:expression(window.screen.availHeight-window.screenTop-62);   
+	 width:100%;
+}
+.ljpifrmp
+{
+	 height:expression(window.screen.availHeight-window.screenTop-120);  
+	 width:expression(window.screen.availWidth-200-4);
+	 overflow-y:hidden;
+}
+.ljpifrmp2
+{
+	 height:expression(window.screen.availHeight-window.screenTop-120);  
+	
+	 overflow-y:hidden;
+}
+
+.ljpifrmp3
+{
+	 height:expression(window.screen.availHeight-window.screenTop-150);  
+	 width:expression(window.screen.availWidth-200-54);
+	 overflow-y:hidden;
+}
+
+.ljpifrmp_tab_r
+{
+	 height:expression(window.screen.availHeight-window.screenTop-6);  
+	 overflow-y:hidden;
+}
+
+.spanTe       
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.childDiv{ 
+     height:expression(window.screen.availHeight-window.screenTop-162);                                                       
+     overflow-y:scroll;    
+	 overflow-x:hidden; 
+	 border:1px solid #cccccc;     
+	 padding:0px;
+	 margin:0px; 
+	 border-collapse:collapse;                                        
+}
+.childDivBottom{ 
+     height:expression(window.screen.availHeight-window.screenTop-162-22);                                                       
+     overflow-y:scroll;    
+	 overflow-x:hidden; 
+	 border:1px solid #cccccc;     
+	 padding:0px;
+	 margin:0px; 
+	 border-collapse:collapse;                                        
+}
+.formDiv{ 
+     height:expression(window.screen.availHeight-window.screenTop-142);                                                                 
+	 border:1px solid #cccccc;     
+	 padding:0px;
+	 margin:0px; 
+	 border-collapse:collapse;                                                     
+}
+
+.line{ float:right; display:block; width:5px; height:26px; text-align:center;}
+
+
+/**********鼠标控制表格样式**********/
+.overTr
+{
+	background: #FFFFBB;
+    border-left: 1px solid #eef8ff;
+    border-bottom: 1px dotted #a8d8eb;
+}
+
+.outTr
+{
+	background:#F5FFEF;
+    border-left:none;
+    border-bottom:none;
+}
+
+.selectBox
+{
+	background: #d5effc url(../../../../league/js/common/flexigrid/images/common/index/hl.png) repeat-x top;
+    border-right: 1px solid #d2e3ec;
+    border-left: 1px solid #eef8ff;	
+    border-top:none;	
+}
+
+.unSelectBox
+{
+	background:#F5FFEF;
+    border-left:none;
+    border-bottom:none;
+}
+
+.selectTr
+{
+	background: #d5effc url(../../../../league/js/common/flexigrid/images/common/index/hl.png) repeat-x top;
+    border-right: 1px solid #d2e3ec;
+    border-left: 1px solid #eef8ff;	
+    border-top:none;	
+}
+
+.noticeTable
+{
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+
+.noticeTable td
+{
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+/*删除操作*/
+.list_delete{
+	
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	background-color:transparent;
+	border:0px solid #fff;
+}
+/*新增操作*/
+.list_create{
+	background-image: url(../../../../league/js/common/flexigrid/images/opera_new.gif);
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	background-color:transparent;
+	border:0px solid #fff;
+}
+
+
+.marg_tb10{ margin:10px 0;}
+.input01{ width:150px; background-color: #E0E0E0; height:20px; line-height:20px;}
+fieldset{ border:1px solid #dddddd;}

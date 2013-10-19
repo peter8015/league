@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+.ha {
+	display: block;
+	width: 250px;
+	color: #000;
+	height: 22px;
+	text-decoration: none;	
+	moz-outline-style: none;
+	background-image: url(../../images/common/index/llink.gif);
+	background-repeat: repeat-x;
+	margin-bottom:3px;
+}
+
+.ha a
+{
+	display: block;
+	width: 250px;
+	color: #000;
+	text-decoration: none;	
+	moz-outline-style: none;
+	background-image: url(../../images/common/index/llink.gif);
+	background-repeat: repeat-x;     
+	margin-bottom:3px;
+}
+.ha a:hover
+{
+	display: block;           
+	width: 250px;
+	color: #000;
+	text-decoration: none;	
+	moz-outline-style: none;
+	background-image: url(../../images/common/index/lhover.gif);
+	background-repeat: repeat-x;
+	margin-bottom:3px;
+}
+
+.ifrmm
+{
+	background-color:#d6edfa;
+	border:0px solid #e3e3e3; 
+	height:expression(window.screen.availHeight-window.screenTop-74-150);
+    width:200px;
+}
+

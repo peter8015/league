@@ -1,0 +1,66 @@
+
+/**  
+
+ * @author Pan, Shao Hua
+ * @date 2011-10-27
+ * @version 1.0
+ * datasheetWidget.css
+ */
+
+
+
+a#linkpsh:link
+{ color:#586e79;border-bottom:1px dotted #9AC8ED;text-decoration:none;}
+a#linkpsh:visited
+{ color:#586e79;border-bottom:1px dotted #9AC8ED;text-decoration:none;}
+a#linkpsh:hover 
+{ border-bottom:1px solid #000;color:#000;}
+.sortedUp
+{
+background-repeat:no-repeat;
+background-position:center right;
+
+}
+.sortedDown
+{
+background-repeat:no-repeat;
+background-position:center right;
+
+}			     
+.DatasheetTableStyles{	
+position:absolute;
+font-family:Tahoma, Arial;
+font-size:0.8em;
+border-collapse:collapse;
+cursor:default;
+border-right:1px solid #ccc;
+border-top :0px solid #ccc;
+border-bottom :1px solid #ccc;
+border-left:0px solid #ccc;
+border-color:#ababab;
+}                     
+.DatasheetTableHeadStyles
+{
+	font-family:Tahoma, Arial;
+	color: #000000;
+	text-decoration: none;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #EFEFEF;
+	background-image:;
+	text-align:center;
+	padding: 0px 0px 0px 0px;
+	font-size:12px;
+}
+.bodyBackGroundFirstColor{
+	background-color:#ffffff;
+	}
+.bodyBackGroundSecondColor{
+	background-color:#efefef;
+	}	
+.nowrapsh{
+	text-overflow:ellipsis;
+	/*-o-text-overflow:ellipsis;*/
+	white-space:nowrap;
+	overflow:hidden;
+	}

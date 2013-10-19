@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.hide{ display:none;}
+textarea {-webkit-appearance: none;border: 1px solid #CCC;font-size: 12px;outline: none;overflow: auto;padding: 0px 0px 0px 4px;resize: none;width: 98%;}
+
+.project-description h2 {margin-top: 0px;}
+.project-description h2, .project-description p {font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-weight: 300;}
+h2 {font-size: 18px;margin: 10px 0px 5px;}
+h2 a{font-size: 18px;font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-weight:bold;}
+ .project {padding: 10px 0 !important; margin-bottom: 10px; border-bottom: 1px dotted #CCC}
+.project-icon-holder {height: 58px; width: 58px; margin: 0 15px 15px 0; border: 1px solid #CCC; display:inline-block; float:left;}
+.project-icon-holder img {height: 48px; width: 48px; margin: 5px}
+.project-description {margin-left: 10px; float:left;}
+.project-description h2, .project-description p {font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; font-weight: 300}
+.project-description h2 {margin-top: 0}
+.project-description p {color: inherit !important; margin: 10px 0; font-size: 14px}
+
+.project-description a.link-with-icon {display: inline-block; padding: 2px 2px 2px 20px; margin: 5px 10px 0 0; background-repeat: no-repeat; background-position: left 50%; width: auto}
+a.delete_link, .condition-actions a.filter-delete-link {display: block; height: 14px; width: 14px; background: url(../images/member/icon_close_14.png) no-repeat left 50%; padding: 0}
+a.delete_link span {display:none}
+a.template-light {background-image: url(../images/member/icon_copy.png);}
+
+
+.instructions {border-bottom: 1px dotted #CCC; padding-bottom: 10px; margin-bottom: 15px}
+form .form_section {border-bottom: 1px dotted #CCC;margin-bottom: 10px;padding-bottom: 10px;}
+h4 {font-size: 14px;font-weight: bold;margin: 10px 0px 5px;}
+form h4 {margin-bottom: 15px;}
+h2 {font-size: 18px;margin: 10px 0px 5px;}
+form h2 {margin-bottom: 15px;}
+h2#advanced_options_header {border-top: 1px solid #CCC;padding-top: 15px;}
+.toggle-section .radio-box {margin-right: 6px}
+.toggle-section .item {margin-right: 32px}
+ul.toggle {margin: 0; padding: 0}
+ul.toggle li {display: inline; padding: 0; margin: 0 10px 0 0}
+
+a.section-expand {background: transparent url(../images/member/icon_triangle_right.png) no-repeat 0 50%; padding: 0 0 0 20px; zoom: 1; color: #333}
+a.section-collapse {background: transparent url(../images/shared/icons/icon_triangle_down.png) no-repeat 0 50%; padding: 0 0 0 20px; zoom: 1; color: #333}
+
+

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+table {font-size: 11px;border-collapse:collapse;border-spacing:0;}
+img {border:0}
+ol,ul {list-style:none}
+caption,th {text-align:left}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+.clear-both {clear: both; font-size: 0; line-height: 0}
+.inline{display: inline}
+.italic-light {color: #666666; font-style: italic}
+
+.highlight {background-color: #FF8604;color: white;font-weight: bold;}
+h1 {border-bottom: 1px solid #CCC;color: #E57700;font-size: 21px;margin: 10px 0px;padding: 0px 0px 10px;}
+h3 {font-size: 16px;margin: 10px 0px 5px;}
+a.page-help-at-action-bar {float: right; background: url(../images/member/icon_help_16.png) no-repeat left 50%; padding: 6px 0 6px 20px;}
+.pagination-info {margin: 10px 0; overflow: hidden}
+.pagination-info .pagination {float: right}
+.pagination-info .pagination-summary {float: left}
+.pagination .disabled {color: black}
+.clearfix:after, .clear_float:after, .action_bar_separator:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0}
+*:first-child+html .clearfix, *:first-child+html .clear_float, *:first-child+html .action_bar_separator {zoom: 1}
+.table-action-panel {background-color: #EEE; border: 1px solid #CCC; border-bottom: 0; margin-top: 10px; padding: 5px; *padding-bottom: 0; overflow: hidden}
+.action-bar {background: #EEE; border: 1px solid #CCC; font-size: 11px; margin: 0 0 10px 0 !important; zoom: 1; clear: both; overflow: hidden; padding: 10px !important;  border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: inset 0 0 5px rgba(0,0,0,0.1); -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.1); -o-box-shadow: inset 0 0 5px rgba(0,0,0,0.1)}
+.main_inner {padding:15px; border:1px solid #f3f3f3; background:#ffffff;}
+.add-user-disabled, .disable-enroll, .enable-enroll {background: transparent no-repeat scroll center left; padding: 0.25em 0em 0.25em 26px; margin-right: 0.5em}
+a.add-user,a.link_as_button,input.link_as_button{padding: 5px 13px; margin-right: 5px; text-align: center; border: 0; background-color: #FFF; background-image: url(../images/member/bg_glass_gradient.png); background-repeat: repeat-x; background-position: center center; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; font-size: 11px; font-family: Arial, Helvetica, sans-serif; text-transform: uppercase; color: #333; min-width: 90px; border: 1px solid #BBB; box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); display: inline-block; text-decoration: none; line-height: 13px}
+a.link_as_button:hover,a.add-user:hover{cursor: pointer}
+.link_as_button,input.link_as_button{padding: 5px 13px; background-color: #F6F6F6; border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.15); -moz-border-radius: 5px; -webkit-border-radius: 5px; color: #333; cursor: pointer; margin-top:3px;}
+a.primary,input.primary{background-color: #ff8400; border: 1px solid rgba(0, 0, 0, 0.1); color: #FFF;cursor: pointer;}
+input[disabled], input[disabled]:hover, a.disabled, a.disabled:hover {color: #999 !important; background-color: #EEE !important; background-image: none; cursor: default; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none}
+table#users tr:hover, table#users tr:hover td {background-color: #E3F0F3 !important}
+
+table.highlightable-table {border: 1px solid #DDD; border-collapse: collapse; margin: 0; width: 100%}
+.highlightable-table th {background: #EEE url(../images/member/bg_gradient_50.png) left top;padding: 0.5em; border:1px solid #cccccc;}
+.highlightable-table tbody tr:hover {background-color: #E3F0F3;}
+.highlightable-table td {padding: 0.5em; border:1px solid #cccccc;}
+.user_text_search {position: relative; text-align: right; display: inline}
+#search-container {background-color: #DFDAD5; margin-bottom: 0}
+ #user_search_control input.text {width:200px; padding: 3px 26px 3px 7px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px}
+#user_search_control input.button, #user_search_control input.cancel_button {position: absolute; top: 0; right:2px; *top: 5px; *right: 8px; min-width: 20px; width: 20px; padding: 0; border: 0; cursor: pointer; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none}
+#user_search_control input.button {background:url("../images/member/icon_search.png") no-repeat right 50% transparent; margin-right:5px;}
+#user_search_control input.cancel_button {background: url("../images/member/icon_close_14.png") no-repeat right 50% transparent;}
+#user_search_control {float: right}
+
+.select-all-none-panel {padding-bottom: 10px}
+ .table-action-panel .select-all-none-panel {float: left; margin-right: 10px; padding: 6px 0}
+.table-action-panel #bulk-operations-panel {float: left}
+
+span.dropdown {padding: 0 20px 0 10px; background-image: url("../images/member/icon_triangle_down.png"); background-repeat: no-repeat; background-position: right 50%}
+.disabled span.dropdown {background-image: url("../images/member/icon_triangle_down_grey.png");}
+
+.slider-down {position:absolute; border: 0; border: 1px solid #CCC; background-color: #FFF; box-shadow: 2px 2px 10px rgba(0,0,0,0.5); -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.3); -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.3); z-index: 10100 !important}
+.slider-down li:hover{background-color: #ffec80}
+.slider-down {text-align: left; z-index: 10; min-width: 12em}
+.slider-down ul {margin: 0; padding: 0}
+.slider-down li {list-style: none outside none; margin: 0}
+.slider-down label {display: inline; margin-left: 4px}
+.slider-down li {padding: 5px 10px; white-space: nowrap}
+.slider-down input[type="button"] {margin: 0}
+ul.group-dropdown {max-height: 12em; overflow-x: hidden; overflow-y: auto}
+.tristate-checkbox-unchecked {padding-left: 16px; background: url(../images/member/tristate-checkbox-unchecked.png) left 3px no-repeat}
+.tristate-checkbox-checked {padding-left: 16px; background: url(../images/member/tristate-checkbox-checked.png) left 3px no-repeat}
+.tristate-checkbox-partial {padding-left: 16px; background: url(../images/member/tristate-checkbox-partial.png) left 3px no-repeat}
+.lightbox_actions .action_bar, .lightbox_actions .action-bar {margin: 0 !important; background: #EEE url(../images/member/overlay_top_innershadow_light.png) repeat-x top; border: 0; border-top: 1px solid #CCC; border-radius: 0; position: relative; -moz-border-radius: 0; -webkit-border-radius: 0; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none}
+.column-selector-operations-bottom {border-top: 1px solid #CCC; background: #EEE url(../images/member/overlay_top_innershadow_light.png) repeat-x top; padding: 10px; margin: 0}
+table.highlightable-table tr td a,table.highlightable-table tr td a:hover,table.highlightable-table tr td a.actionable {color: #0076BA}
+table.highlightable-table .table-top {border-bottom: 1px solid #DDD}
+.highlightable-table th {background: #EEE url(../images/member/bg_gradient_50.png) left top}
+.deactivated-users-filter { margin: 0 5px 0 0; display: inline}
+
+/*new user*/
+.required {color:#CC0000;}
+.form_item {padding-bottom: 5px}
+form p, .form_item {padding-bottom: 20px; clear: both; overflow: hidden}
+.contextual-help {position: relative}
+.contextual-help a {font-weight: 300 !important}
+.action-bar b {font-weight: normal}
+.action-bar a {text-decoration: none !important; font-weight: normal !important}
+.action-bar.contextual-help{ background-color: #DFEDFE}
+.action-bar input {margin: 0em}
+.action-bar label {display: inline}
+.action-bar ul {float: left; margin: 0em auto}
+.action-bar li {list-style: none; margin: 0em 1em}
+.action-bar .notes {display: block; margin: 0em; margin-top: -0.25em}
+.action-bar .current {color: #AA0000; font-weight: bold; line-height: 1.8em}
+ .menu-separator {border-bottom: 1px dotted #CCCCCC !important}
+ .action-bar a {margin-right: 5px}
+.action-bar a.up {display: none}
+.action-bar a.disabled {color: #CCC}
+label {display: block;padding-bottom: 5px;}
+input.large, input.width-large {width: 350px}
+input.x-large {width: 500px}
+input[type="text"], input[type="password"], input[type="file"] {-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 5px inset;border: 1px solid #CCC;display: inline;font-size: 12px;outline: none;padding: 4px;}
+.hints{ color:#1483A7;}
+ .notes, div.radio-button-notes {color: #999;font-style: italic;}
+ul.vertical-neighbors{margin: 10px;}
+ul.vertical-neighbors li{display: list-item; margin: 5px 0px;}
+div.paragraph {margin: 10px 0}
+div.paragraph .field_error, div.paragraph .fieldWithErrors {margin: 5px 0}
+.user-icon-preview {float: left;margin: 0.5em 1em 0.5em 0px;margin-right: 1em;}
+.upload-user-icon {float: left;margin-left: 5px;margin-top: 5px;}
+
+/*group user*/
+.profile-title {margin-left: 10px}
+.profile-header-actions {margin-left: 20px}
+.tabs_pane {border-bottom: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC}
+.tabs_pane a {text-decoration: none}
+ul.tabs_pane, .tabs_pane ul {margin: 0em}
+.tabs_pane li, .tabs_header li {list-style: none}
+.tabs_pane .tabs_header {background-color: #999; padding: 10px; padding-bottom: 0; overflow: hidden}
+.tabs_header ul {overflow: hidden}
+.tabs_header li {float: left; margin: 0 5px 0 0; padding: 0}
+.tabs_header span, .tabs_header a {border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0; -o-border-radius: 5px 5px 0 0; display: block; font-size: 11px; padding: 8px 15px; cursor: pointer;  cursor: hand;  background-color: #666; color: #FFF}
+.tabs_header span:hover, .tabs_header a:hover {background-color: #777}
+.tabs_header .current span, .tabs_header .current span:hover, .tabs_header .current a, .tabs_header .current a:hover {background-color: #FFF; color: #000}
+.tabs_pane .tabs_content {padding: 10px}
+a.hide-contextual-help {display: block; float: right; height: 16px; width: 16px; background: url(../images/member/icon_close_16.png); text-indent: -300px; overflow:hidden; line-height: 0px; font-size: 0px; margin: 0}
+a.hide-contextual-help:hover {background: url(../images/member/icon_close_hover_16.png)}
+
+.contextual-help, .explore_box {background-color: #dfedfe; border: 1px solid #c5d9ef; font-size: 14px !important; line-height: 130%; padding: 10px; clear: both; overflow: hidden; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2); -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2); -o-box-shadow: 0 0 5px rgba(0,0,0,0.2)}
+.contextual_help_title_bar_inner_wrapper {padding: 0 0 10px 0; margin: 0 0 10px 0; border-bottom: 1px solid #c5d9ef}
+.explore_box {font-family: "Helvetica Neue", Arial, Helvetica; font-weight: 300}
+.explore_box h1 {margin: 0; padding: 10px 0; border-bottom: 0}
+.explore_box h1#explore_mingle_title {border-bottom: 1px solid #c5d9ef; margin-bottom: 15px; padding: 10px 0 20px 0; color: #000}
+.contextual_help_title {font-family: "Helvetica Neue", Arial, Helvetica; font-size: 16px; font-weight: 300; margin: 0 0 10px 0; padding: 0 0 10px 0; border-bottom: 1px solid #c5d9ef}
+.explore_box h2 {font-family: "Helvetica Neue", Arial, Helvetica; font-weight: 300; margin: 0; padding: 15px 0 15px 60px; background-repeat: no-repeat}

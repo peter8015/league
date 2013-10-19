@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:s="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.4.xsd"
+	default-autowire="byType" default-lazy-init="true">
+
+	<description>SpringSecurity安全配置</description>
+
+	<!-- http安全配置 -->
+	
+	<s:http auto-config="true" access-decision-manager-ref="accessDecisionManager">
+<!--		<s:intercept-url pattern="/login.jsp" filters="none"/> -->
+		<s:intercept-url pattern="/pages/league/igo/index/login.jsp" filters="none"/> 
+		<s:intercept-url pattern="/login.jsp" filters="none"/> 
+		<s:intercept-url pattern="/commons/**" filters="none"/> 
+		<s:intercept-url pattern="/images/**" filters="none"/> 
+		<s:intercept-url pattern="/css/**" filters="none"/> 
+		<s:intercept-url pattern="/js/**" filters="none"/> 
+		
+		<s:form-login login-page="/pages/league/igo/index/login.jsp" default-target-url="/user/login.do"
+			authentication-failure-url="/pages/league/igo/index/login.jsp?error=1" />
+			
+<!--		<s:form-login login-page="/login.jsp" default-target-url="/sym/user/login.do"-->
+<!--			authentication-failure-url="/login.jsp?error=1" />-->
+			
+		<s:logout logout-success-url="/pages/league/igo/index/login.jsp" />
+<!--		<s:logout logout-success-url="/login.jsp" />-->
+		<s:remember-me key="e37f4b31-0c45-11dd-bd0b-0800200c9a66" />
+<!--		<s:concurrent-session-control max-sessions="1"-->
+<!--			exception-if-maximum-exceeded="false" expired-url="/login.jsp?error=3" />-->
+		<s:concurrent-session-control max-sessions="1"
+			exception-if-maximum-exceeded="false" expired-url="/pages/league/igo/index/login.jsp?error=3" />
+	</s:http>
+
+	<!-- 认证配置 -->
+	<s:authentication-provider user-service-ref="userDetailsService">
+		<!-- 可设置hash使用sha1或md5散列密码后再存入数据库 <s:password-encoder hash="plaintext" /> -->
+		<!-- <s:password-encoder hash="sha" /> -->
+		<s:password-encoder hash="md5" />
+	</s:authentication-provider>
+	
+
+	<!-- 项目实现的用户查询服务 -->
+	<bean id="userDetailsService" class="com.base.platform.framework.security.UserDetailsServiceImpl" />
+
+	<!-- 重新定义的FilterSecurityInterceptor,使用databaseDefinitionSource提供的url-授权关系定义 -->
+	<bean id="filterSecurityInterceptor" class="org.springframework.security.intercept.web.FilterSecurityInterceptor">
+		<s:custom-filter before="FILTER_SECURITY_INTERCEPTOR" />
+		<property name="accessDecisionManager" ref="accessDecisionManager" />
+		<property name="objectDefinitionSource" ref="databaseDefinitionSource" />
+	</bean>
+
+	<!-- DefinitionSource工厂,使用resourceDetailsService提供的URL-授权关系. -->
+	<bean id="databaseDefinitionSource" class="org.springside.modules.security.springsecurity.DefinitionSourceFactoryBean">
+		<property name="resourceDetailsService" ref="resourceDetailsService" />
+	</bean>
+	
+	<!-- 项目实现的URL-授权查询服务 -->
+	<bean id="resourceDetailsService" class="com.base.platform.framework.security.ResourceDetailsServiceImpl" />
+
+	<!-- 授权判断配置, 将授权名称的默认前缀由ROLE_改为A_. -->
+	<bean id="accessDecisionManager" class="org.springframework.security.vote.AffirmativeBased">
+		<property name="decisionVoters">
+			<list>
+				<bean class="org.springframework.security.vote.RoleVoter">
+					<property name="rolePrefix" value="A_" />
+				</bean>
+				<bean class="org.springframework.security.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean>
+	
+		<!--JCaptcha验证码服务 -->
+	<bean id="captchaService" class="com.octo.captcha.service.image.DefaultManageableImageCaptchaService">
+		<property name="captchaEngine">
+			<bean class="com.base.platform.framework.security.GMailEngine" />
+		</property>
+		<!-- 
+		默认生成的图片180秒过期 , 可另行设置
+		<property name="minGuarantedStorageDelayInSeconds" value="180" />
+		-->
+	</bean>
+	
+</beans>
