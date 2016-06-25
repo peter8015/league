@@ -3,4 +3,4 @@
 
 A team coorperation prject link thoughtwork mingle,oschina team.
 
-git clone 
+git clone https://github.com/peter8015/league.git
